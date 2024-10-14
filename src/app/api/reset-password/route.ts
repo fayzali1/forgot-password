@@ -19,7 +19,6 @@ export async function POST(request: Request) {
   }
 
   // Here you would update the user's password in your database
-  // For this example, we'll just log it
   console.log(`Updating password for ${email}`);
 
   // Remove the used token
